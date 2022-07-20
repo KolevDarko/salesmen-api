@@ -1,15 +1,15 @@
 environment: {}
 parameters: {}
 packages:
-  - name: sample
+  - name: salesmen
     environment: {}
     parameters: {}
     annotations: {}
-    functions:
-      - name: hello
+    actions:
+      - name: salesmen
         binary: false
-        main: ''
-        runtime: 'nodejs:default'
+        main: "salesmen/salesmen.js"
+        runtime: "nodejs:default"
         web: true
         parameters: {}
         environment: {}
